@@ -105,4 +105,41 @@
     background-color: white;
     color: #333;
   }
+  .hero-section {
+    background-image: url('path/to/image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-section a {
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: #fff;
+    color: #333;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .hero-section a:hover {
+    background-color: #333;
+    color: #fff;
+  }
   
